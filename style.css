@@ -1,0 +1,47 @@
+body {
+  overflow-x: hidden;
+  display: block;
+  background-color: rgb(255, 0, 68);
+  height: 700px;
+  margin: -10px;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.number {
+  width: 200px;
+  height: 30px;
+  margin: 5px;
+}
+.buttons {
+  width: 210px;
+  height: 40px;
+  margin: 6px;
+  border: 3px solid white;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+}
+.bbutton {
+  margin-bottom: 100px;
+}
+/* colors */
+.colors {
+  width: 50px;
+  height: 30px;
+  margin-bottom: 70px;
+}
+/* Sliders */
+.slider {
+  width: 100%;
+  height: 25px;
+  width: 150px;
+  background: #d3d3d3;
+}
+.slider::-webkit-slider-thumb {
+  cursor: pointer;
+}
